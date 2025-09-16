@@ -24,7 +24,7 @@ LuminaSync transforms passive meeting documentation into an interactive experien
 
 ## 🖼️ Application Walkthrough
 
-**Secure Login** - Our clean authentication interface ensures secure access to your meeting workspace. ![LuminaSync Banner](./assets/dashboard.PNG)
+
 
 **Dashboard Overview** - Get a bird's eye view of your upcoming and past meetings with quick access to recent activities. ![Dashboard](./assets/dashboard.PNG)
 
