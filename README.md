@@ -5,6 +5,12 @@
 ## 🚀 Elevator Pitch
 LuminaSync transforms passive meeting documentation into an interactive experience by providing real-time, AI-powered suggestions and insights during meetings.
 
+![System Flow](./assets/flow_chart.png)
+
+**System Flow Overview:**  
+The process starts when a user asks a question, which is processed through TiDB Vector Search to retrieve relevant documents and images. Colpali Multimodal Processing then analyzes the query context and determines if visual evidence is required. Based on this, the system either generates a text-only answer or matches and extracts the most relevant images to provide an enriched response with both text and visuals. Finally, the system displays the answer along with supporting evidence and source references.
+
+
 ## ✨ Features
 
 ### 🎙️ Real-time Meeting Assistant
