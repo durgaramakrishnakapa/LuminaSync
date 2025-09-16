@@ -1,0 +1,6 @@
+streamlit
+byaldi
+transformers
+huggingface_hub
+dotenv
+google.generativeai

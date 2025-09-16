@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar styles for chatbot and transcript */
+.chatbot-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #e2e8f0 #f8fafc;
+}
+
+.chatbot-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chatbot-scrollbar::-webkit-scrollbar-track {
+  background: #f8fafc;
+  border-radius: 3px;
+}
+
+.chatbot-scrollbar::-webkit-scrollbar-thumb {
+  background: #e2e8f0;
+  border-radius: 3px;
+}
+
+.chatbot-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #cbd5e1;
+}
+
+/* Dark theme scrollbar for transcript */
+.transcript-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #4b5563 #374151;
+}
+
+.transcript-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.transcript-scrollbar::-webkit-scrollbar-track {
+  background: #374151;
+  border-radius: 3px;
+}
+
+.transcript-scrollbar::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 3px;
+}
+
+.transcript-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}

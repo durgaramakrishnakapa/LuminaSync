@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@100mslive/react-sdk": "^0.10.38"
+  },
+  "devDependencies": {
+  }
+}
